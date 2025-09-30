@@ -1,2 +1,5 @@
-Тестовая страница:
-https://ksenia-zh13579.github.io/frontend-and-backend-practice/
+# Мой первый проект
+## Проект
+Этот репозиторий является каркасом для будущего веб-приложения.
+## Ссылки
+- [Публичная страница на GitHub Pages](https://ksenia-zh13579.github.io/frontend-and-backend-practice/)
