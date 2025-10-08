@@ -8,8 +8,10 @@
     </head>
     <body>
         <div class="page-container">
-            <div class="header">Хэдер</div>
-            <div class="nav" id="menu">
+            <header class="header">
+                <h1>Хэдер</h1>
+            </header>
+            <nav class="nav" id="menu">
                 <ul class="nav-list">
                     <li class="nav-item"><a class="nav-link" 
                         href="../index.html">Главная</a></li>
@@ -22,20 +24,24 @@
                     <li class="nav-item"><a class="nav-link" 
                         href="contacts.html">Контакты</a></li>
                 </ul>
-            </div>
-            <div class="content">
-                <div class="good-card">
-                    <img class="good-image" src="../images/good_book_recipes.jpg" alt="Фото товара" max_width="50em">
-                    <p class="good-title">Книга "Семейные рецепты Шанхайской кухни"</p>
-                    <p class="good-price">Цена: 90 CNY</p>
+            </nav>
+            <main class="content">
+                <div class="products-grid">
+                    <article class="product-card">
+                        <img class="product-image" src="../images/good_book_recipes.jpg" alt="Фото товара" max_width="50em">
+                        <h4 class="product-name">Книга "Семейные рецепты Шанхайской кухни"</h4>
+                        <p class="product-price">Цена: 90 CNY</p>
+                    </article>
+                    <article class="product-card">
+                        <img class="product-image" src="../images/good_books_psychiatry.jpg" alt="Фото товара" max_width="50em">
+                        <h4 class="product-name">Курс учебников "Современная клиническая психиатрия"</h4>
+                        <p class="product-price">Цена: 250 CNY</p>
+                    </article>
                 </div>
-                <div class="good-card">
-                    <img class="good-image" src="../images/good_books_psychiatry.jpg" alt="Фото товара" max_width="50em">
-                    <p class="good-title">Курс учебников "Современная клиническая психиатрия"</p>
-                    <p class="good-price">Цена: 250 CNY</p>
-                </div>
-            </div>
-            <div class="footer">Футер</div>
+            </main>
+            <footer class="footer">
+                <p>Футер</p>
+            </footer>
         </div>
     </body>
 </html>

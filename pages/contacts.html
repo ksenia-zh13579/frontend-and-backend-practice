@@ -8,8 +8,10 @@
     </head>
     <body>
         <div class="page-container">
-            <div class="header">Хэдер</div>
-            <div class="nav" id="menu">
+            <header class="header">
+                <h1>Хэдер</h1>
+            </header>
+            <nav class="nav" id="menu">
                 <ul class="nav-list">
                     <li class="nav-item"><a class="nav-link" 
                         href="../index.html">Главная</a></li>
@@ -22,13 +24,17 @@
                     <li class="nav-item"><a class="nav-link" 
                         href="contacts.html">Контакты</a></li>
                 </ul>
-            </div>
-            <div class="content">
-                <p class="address-title">Адрес электронной почты: <span class="email-address">xie_qingcheng@sina.com</span></p>
-                <p class="address-title">Адрес: Шанхайский университет, этаж 3, каб. 312</p>
-                <button class="call_button" id="button" type="button">Позвонить мне</button>
-            </div>
-            <div class="footer">Футер</div>
+            </nav>
+            <main class="content">
+                <div class="contacts-container">
+                    <article class="contact-info">Адрес электронной почты: <span class="email-address">xie_qingcheng@sina.com</span></article>
+                    <article class="contact-info">Адрес: Шанхайский университет, этаж 3, каб. 312</article>
+                    <button class="contact-button" id="button" type="button">Позвонить мне</button>
+                </div>
+            </main>
+            <footer class="footer">
+                <p>Футер</p>
+            </footer>
         </div>
     </body>
 </html>
