@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang = "ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+        <title>Семестровая работа</title>
+        <link rel="stylesheet" href="../style/styles.css">
+    </head>
+    <body>
+        <div class="page">
+            <header class="header">
+                <h1 class="header__title">Товары</h1>
+            </header>
+            <nav class="nav" id="menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link" 
+                        href="../index.html">Главная</a></li>
+                    <li class="nav__item"><a class="nav__link" 
+                        href="news.html">Новости</a></li>
+                    <li class="nav__item nav__item--disabled"><a class="nav__link" 
+                        href="#">Практики</a></li>
+                    <li class="nav__item nav__item--active"><a class="nav__link" 
+                        href="goods.html">Товары</a></li>
+                    <li class="nav__item"><a class="nav__link" 
+                        href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+            <main class="main">
+                <section class="products">
+                    <h2 class="products__title">Список товаров</h2>
+                    <div class="products__grid">
+                        <article class="product-card">
+                            <img class="product-card__image" src="../images/good_book_recipes.jpg" alt="Фото товара" max_width="50em">
+                            <h3 class="product-card__title">Книга "Семейные рецепты Шанхайской кухни"</h3>
+                            <p class="product-card__price">Цена: 90 CNY</p>
+                        </article>
+                        <article class="product-card">
+                            <img class="product-card__image" src="../images/good_books_psychiatry.jpg" alt="Фото товара" max_width="50em">
+                            <h3 class="product-card__title">Курс учебников "Современная клиническая психиатрия"</h3>
+                            <p class="product-card__price">Цена: 250 CNY</p>
+                        </article>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+                <p class="footer__text">&copy; 2025 Мой сайт</p>
+            </footer>
+        </div>
+    </body>
+</html>
