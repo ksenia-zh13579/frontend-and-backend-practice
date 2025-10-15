@@ -15,6 +15,15 @@
     --space-lg: 30px;
 }
 
+body.theme-dark {
+    --color-main: #ddebeffa;
+    --color-accent: #37f9e6;
+    --color-light: #083664;
+    --color-dark: #ecf0f1;
+    --color-text: #f2f7fac2;
+    --color-white: #10284f; 
+}
+
 /* Базовые стили */
 * {
     margin: 0;
@@ -184,7 +193,6 @@ body {
 
 .skill--teaching {
     background: #e7d45e;
-    color: var(--color-text);
 }
 
 /* Блок projects */
@@ -264,6 +272,39 @@ body {
     color: #7f8c8d; /* Серый цвет текста */
     line-height: 1.6; /* Межстрочный интервал */
     margin: 0; /* Убираем отступы */
+}
+
+/*Блок с переключением темы*/
+.theme-toggle {
+    margin-top: 50px;
+    background: var(--color-white);
+    padding: var(--space-lg);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    border-left: 4px solid var(--color-accent);
+}
+
+.theme-toggle__title {
+    color: var(--color-main);
+    margin-bottom: var(--space-md);
+    font-size: 1.5rem;
+}
+
+.theme-toggle__button {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    border: none;
+    padding: 15px 40px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+theme-toggle__button:hover { 
+    filter: brightness(0.95); 
 }
 
 /* Блок footer */
@@ -432,7 +473,7 @@ body {
 
 .contact-button {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: var(--color-white);
+    color: #ffffff;
     border: none;
     padding: 15px 40px;
     font-size: 16px;
